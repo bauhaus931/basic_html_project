@@ -16,5 +16,3 @@ RUN apt-get install -y nano \
 
 RUN pip3 install --upgrade pip setuptools && \
     pip3 install -r requirements.txt
-
-CMD bash
